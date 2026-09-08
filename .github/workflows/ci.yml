@@ -38,3 +38,8 @@ jobs:
         pip install playwright
         playwright install chromium
 
+    - name: Run tests
+      run: |
+        export PYTHONPATH=$PYTHONPATH:.
+        python -m pytest --ignore=backend/tests/test_e2e.py
+
