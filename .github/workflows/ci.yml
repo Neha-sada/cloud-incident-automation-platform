@@ -33,4 +33,8 @@ jobs:
         export PYTHONPATH=$PYTHONPATH:.
         python -m pytest
 
+    - name: Install Playwright
+      run: |
+        pip install playwright
+        playwright install chromium
 
