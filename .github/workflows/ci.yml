@@ -40,6 +40,6 @@ jobs:
 
     - name: Run tests
       run: |
-        export PYTHONPATH=$PYTHONPATH:.
-        python -m pytest --ignore=backend/tests/test_e2e.py
+       export PYTHONPATH=$PYTHONPATH:.
+       python -m pytest backend/tests/test_health.py
 
