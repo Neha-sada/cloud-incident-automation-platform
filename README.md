@@ -32,8 +32,9 @@ limits to avoid ongoing costs. All infrastructure code available in /terraform.
 
 ## Project Structure
 cloud-incident-automation-platform/
-├── backend/          # FastAPI application
-├── terraform/        # AWS infrastructure as code  
-├── tests/            # Playwright E2E and Pytest unit tests
+├── app/              # FastAPI application
+├── automation/       # Remediation workflows  
+├── tests/            # Playwright E2E and Pytest tests
+├── terraform/        # AWS infrastructure as code
 ├── .github/workflows # CI/CD pipeline
 └── README.md
