@@ -38,3 +38,9 @@ cloud-incident-automation-platform/
 ├── terraform/        # AWS infrastructure as code
 ├── .github/workflows # CI/CD pipeline
 └── README.md
+
+
+## Screenshots
+![API Health Check](screenshots/apis.png)
+![pytest](screenshots/pytest.png)
+![containerisation](screenshots/docker.png)
