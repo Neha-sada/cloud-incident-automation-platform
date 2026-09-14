@@ -44,3 +44,5 @@ cloud-incident-automation-platform/
 ![API Health Check](screenshots/apis.png)
 ![pytest](screenshots/pytest.png)
 ![containerisation](screenshots/docker.png)
+![application status](screenshots/health.png)
+![swagger ui](screenshots/swaggerui.png)
